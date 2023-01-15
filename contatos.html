@@ -10,7 +10,7 @@
     <body>
         <header>
             <div class="caixa">
-                <h1> <img src="logo.png"> </h1>
+                <h1> <img src="logo.png" alt="Logo"> </h1>
                     <nav>
                         <ul >
                             <li><a href="texto.html">Home</a></li>
@@ -24,21 +24,21 @@
         <main>
             <form>
                 <label for="nomesobrenome">Nome e Sobrenome</label>
-                <input type="text" id="nomesobrenome" class="input-padrao">
+                <input type="text" id="nomesobrenome" class="input-padrao" required>
 
                 <label for="email">Email</label>
-                <input type="text" id="email" class="input-padrao">
+                <input type="text" id="email" class="input-padrao" required placeholder="Seuemail@dominio.com">
 
                                 
                 <label for="telefone">Telefone</label>
-                <input type="text" id="telefone" class="input-padrao">
+                <input type="text" id="telefone" class="input-padrao" required placeholder="Seu telefone com DD (XX) X XXXX-XXXX">
 
                 <label  for="mensagem">Mensagem</label>
-                <textarea colse="70" rows="10"  id="mensagem" class="input-padrao"></textarea>
+                <textarea colse="70" rows="10"  id="mensagem" class="input-padrao" required></textarea>
 
-                <div>
+                <fieldset>
 
-                    <p>Como prefere o nosso contato ?</p>
+                    <legend>Como prefere o nosso contato ?</legend>
 
                     <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> E-mail</label>
                     
@@ -46,14 +46,29 @@
                     <label for="radio-Telefone"><input type="radio" name="contato" value="Telefone" id="radio-Telefone"> Telefone</label>
                     
 
-                    <label for="radio-whatshapp"><input type="radio" name="contato" value="whatshap" id="radio-whatshapp"> WhatshApp</label>
+                    <label for="radio-whatshapp"><input type="radio" name="contato" value="whatshap" id="radio-whatshapp" checked> WhatshApp</label>
                     
 
-                </div>    
+                </fieldset>    
 
-                <label class="chekbox"><input type="checkbox"> Gostaria de receber nossas novidade por e-mail</label>
+                <legend>Qual horário prefere ser atendido? </legend>
 
-                <input type="submit" value="Enviar Formulário">
+                    <select>
+
+                        <fieldset>
+
+                        
+                            <option>Manhã</option>
+                            <option>Tarde</option>
+                            <option>Noite</option>
+
+                        </fieldset>
+
+                    </select>
+
+                <label class="chekbox"><input type="checkbox" checked> Gostaria de receber nossas novidade por e-mail?</label>
+
+                <input class="enviar" type="submit" value="Enviar Formulário">
 
             </form>
 
@@ -64,7 +79,7 @@
 
         <footer>
 
-            <img class="tamanhologo" src="logo-branco.png">
+            <img class="tamanhologo" src="logo-branco.png" alt="Logo">
             <p class="copyright">
 
                 &copy; Copyright Barbearia do Gerson
