@@ -1,0 +1,112 @@
+header{
+
+    background:url(bg.jpg);
+    padding: 80px;
+
+}
+
+.caixa{
+
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    
+}
+
+nav{
+
+    position: absolute;
+    top: 110px;
+    right: 15px;
+    
+}
+
+nav li{
+    
+        display: inline;
+        margin: 0 0 0 15px;
+    
+}
+    
+nav a {
+    
+        text-transform: uppercase;
+        color: #000000;
+        font-weight: bold;
+        font-size: 25px;
+        text-decoration: none;
+        
+    
+ }
+    
+nav a:hover {
+    
+    color: #eb1008;
+    text-decoration: underline;
+    
+}
+
+main{
+
+    width: 940px;
+    margin: 25px;
+    
+}
+
+fomr{
+
+    margin: 25px;
+    
+}
+
+form label,form p{
+
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+
+}
+
+.input-padrao{
+
+    display: block;
+    margin: 0   0   20px;
+    padding: 10px 25px;
+    width: 50%;
+
+}
+
+.chekbox{
+
+    margin: 20px 0;
+}
+
+
+
+
+
+
+
+footer{
+
+    text-align:center;
+    background: url(bg.jpg) ;
+    width: 100%;
+    padding: 50px 0px 0px;
+
+}
+
+.tamanhologo{
+
+    width: 215px;
+
+}
+
+.copyright{
+
+
+    color: #000000;
+    font-size: 13px;
+    margin: 30px 0px 0px;
+
+}

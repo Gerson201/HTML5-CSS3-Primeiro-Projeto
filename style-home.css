@@ -1,0 +1,195 @@
+
+body {
+
+  background: #ffffff; 
+
+}
+
+header{
+
+    background:url(bg.jpg);
+    padding: 45px;
+
+    
+}
+
+#banner{
+
+    width: 100%;
+   
+
+}
+
+.titulo-principal{
+
+    padding-top:50px;
+    text-align: center;
+    position: center;
+    width: 940px;
+    margin: auto auto;
+    font-size: 45px;
+  
+     
+}
+
+h1{
+
+    text-align: left;
+}
+
+
+.caixa{
+
+    position: center;
+    margin:0 auto;
+    padding-bottom: 80px;
+    width: 95%;
+    text-align: right;
+    display: inline;
+    
+}
+
+nav{
+
+    position: absolute;
+    top: 110px;
+    right: 15px;
+    
+}
+
+ nav ul{
+   
+    position: center;
+    display: inline;
+    text-align: center;
+    margin: 0 0 35px;
+    padding: 10px 25px;
+  
+    
+}
+nav li{
+    
+        display: inline;
+        margin: 0   0   20px;
+        width: 50% ;
+        padding: 10px;
+        
+}
+    
+nav a {
+    
+        text-transform: uppercase;
+        color: #000000;
+        font-weight: bold;
+        font-size: 25px;
+        text-decoration: none;
+        
+        
+    
+}
+
+nav a:hover {
+
+    color: #eb1008;
+    text-decoration: underline;
+
+}
+
+.titulo-centralizado{
+
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 25px;
+    
+}
+
+.principal{
+   
+    background: #ffffff;
+    padding: 30px;
+
+}
+
+p {
+
+    text-align: center;
+
+}
+
+#missao {
+
+   font-size:20px;
+   font-weight: bold;
+
+}
+
+em strong {
+
+    color: #d3280a;
+
+}
+
+ul{
+
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+
+
+
+.beneficios{
+    
+    background: #ffffff;
+    padding: 0px;
+    font-size: 40px;
+    
+    
+}
+
+.beneficiosjpg{
+
+    width: 35%;
+    margin: auto auto;
+    margin-top: 0px;
+    position: left;
+
+}
+.ulteste{
+
+    
+    display: inline-block;
+    vertical-align: 200px;
+    width: 20%;
+    margin-right: 25%;
+    font-size: 20px;
+    font-style: oblique;
+    
+
+}
+footer{
+
+    text-align:center;
+    background: url(bg.jpg) ;
+    width: 100%;
+    padding: 50px 0px 0px;
+
+}
+
+.tamanhologo{
+
+    width: 215px;
+
+}
+
+.copyright{
+
+
+    color: #000000;
+    font-size: 13px;
+    margin: 30px 0px 0px;
+
+}
