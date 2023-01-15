@@ -105,8 +105,26 @@ form label,form legend{
 
 }
 
+table{
 
+    margin: 20px 0 40px;
 
+}
+
+thead{
+
+background: green;
+color:white;
+font-size: bold;
+
+}
+
+td,th{
+
+    border: 3px solid #000000;
+    padding: 8px 15px;
+
+}
 
 
 footer{
