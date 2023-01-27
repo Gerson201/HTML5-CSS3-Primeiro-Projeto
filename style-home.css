@@ -9,7 +9,6 @@ header{
 
     background:url(bg.jpg);
     padding: 45px;
-
     
 }
 
@@ -28,15 +27,13 @@ header{
     width: 940px;
     margin: auto auto;
     font-size: 45px;
-  
-     
+       
 }
 
 h1{
 
     text-align: left;
 }
-
 
 .caixa{
 
@@ -95,21 +92,43 @@ nav a:hover {
 
 }
 
-.titulo-centralizado{
+.titulo-principal{
 
     text-align: center;
-    font-size: 45px;
+    font-size: 2em;
+    margin: 0 0 1em;
     font-weight: bold;
     padding: 25px;
-    
+    clear: left ;
 }
 
 .principal{
-   
+
+    margin: 0 0 1em;;
     background: #ffffff;
-    padding: 30px;
+  
+}
+.principal{
+   font-size: bold;
+  
+}
+
+.principal{
+    font-style: italic;
+    
+  
+}
+
+.utencilios{
+
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0 ; 
 
 }
+
+
+
 
 p {
 
@@ -145,31 +164,19 @@ ul{
     
     background: #ffffff;
     padding: 0px;
-    font-size: 40px;
-    
+      
     
 }
 
 .beneficiosjpg{
 
-    width: 35%;
+    width: 60%;
     margin: auto auto;
     margin-top: 0px;
     position: left;
 
 }
-.ulteste{
 
-    
-    display: inline-block;
-    vertical-align: 200px;
-    width: 20%;
-    margin-right: 25%;
-    font-size: 20px;
-    font-style: oblique;
-    
-
-}
 footer{
 
     text-align:center;
