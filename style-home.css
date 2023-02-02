@@ -12,45 +12,24 @@ header{
     
 }
 
-#banner{
+.caixa{
 
-    width: 100%;
-   
-
+    position: relative;
+    margin: 0px auto;
+    padding-bottom: 180px;
+    
 }
-
-.titulo-principal{
-
-    padding-top:50px;
-    text-align: center;
-    position: center;
-    width: 940px;
-    margin: auto auto;
-    font-size: 45px;
-       
-}
-
 h1{
 
     text-align: left;
 }
-
-.caixa{
-
-    position: center;
-    margin:0 auto;
-    padding-bottom: 80px;
-    width: 95%;
-    text-align: right;
-    display: inline;
-    
-}
-
 nav{
 
     position: absolute;
     top: 110px;
     right: 15px;
+    display: inline;
+    text-align: center;
     
 }
 
@@ -66,22 +45,20 @@ nav{
 }
 nav li{
     
-        display: inline;
-        margin: 0   0   20px;
-        width: 50% ;
-        padding: 10px;
+    display: inline;
+    margin: 0   0   20px;
+    width: 50% ;
+    padding: 10px;
         
 }
     
 nav a {
     
-        text-transform: uppercase;
-        color: #000000;
-        font-weight: bold;
-        font-size: 25px;
-        text-decoration: none;
-        
-        
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;   
     
 }
 
@@ -90,6 +67,42 @@ nav a:hover {
     color: #eb1008;
     text-decoration: underline;
 
+}
+
+#banner{
+
+    width: 100%;
+   
+
+}
+.principal{
+
+    margin: 0 0 1em;;
+    background: #ffffff;
+  
+}
+
+.titulo-principal{
+
+    padding-top:50px;
+    text-align: center;
+    position: center;
+    width: 940px;
+    margin: auto auto;
+    font-size: 45px;
+       
+}
+
+
+.principal{
+   font-size: bold;
+  
+}
+
+.principal{
+    font-style: italic;
+    
+  
 }
 
 .titulo-principal{
@@ -102,23 +115,6 @@ nav a:hover {
     clear: left ;
 }
 
-.principal{
-
-    margin: 0 0 1em;;
-    background: #ffffff;
-  
-}
-.principal{
-   font-size: bold;
-  
-}
-
-.principal{
-    font-style: italic;
-    
-  
-}
-
 .utencilios{
 
     width: 120px;
@@ -126,8 +122,6 @@ nav a:hover {
     margin: 0 20px 20px 0 ; 
 
 }
-
-
 
 
 p {
@@ -149,14 +143,6 @@ em strong {
 
 }
 
-ul{
-
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-}
-
 
 
 
@@ -174,8 +160,18 @@ ul{
     margin: auto auto;
     margin-top: 0px;
     position: left;
-
 }
+
+ul{
+
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+
+
 
 footer{
 
